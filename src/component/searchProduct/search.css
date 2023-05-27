@@ -1,0 +1,127 @@
+
+.otherMenu .search{
+  width: 30%;
+  height: 100%;
+  font-size: 1.7rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.searchList2{
+  position: fixed;
+  background-color: rgba(0,0,0,.6);
+  width: 100%;
+  height: 1000vh;
+  right: 0;
+  transition: all 0.4s;
+  display: none;
+  z-index: 20000;
+}
+.searchList2.activeSearch{
+  display: block;
+}
+.searchList{
+  width: 74%;
+  height: 100vh;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  z-index: 20000;
+  transition: all 0.4s;
+  transform: translateX(-100%);
+}
+.searchList.activeSearch{
+  transform: translateX(0%);
+}
+.header-list{
+  display: flex;
+  justify-content: end;
+}
+.close{
+  margin: .5rem;
+  font-size: 1.2rem;
+  display: flex;
+  cursor: pointer;
+  font-family: 'Jost',Sans-Serif;
+  align-items: center;
+  font-weight: 400;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+/* LIST BODY */
+.body-search{
+  font-family: 'Jost',Sans-Serif;
+  padding: 2rem 1rem;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.body-search h3{
+  font-size: .9rem;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  padding-bottom: 12px;
+}
+.box-search{
+  width: 100%;
+  height: 2.7rem;
+  background-color: rgba(0,0,0,0.1);
+  margin: 1.2rem 0px;
+  border-radius: 6px;
+  display: flex;
+}
+.box-search input{
+  height: 100%;
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+  font-size: 1.2rem;
+  padding: .3rem .6rem;
+  font-family: 'Jost',Sans-Serif;
+  font-weight: 500;
+}
+.search-box{
+  font-size: 1.4rem!important;
+}
+
+/* TOP BUTTON LIST POPULER */
+.top-search{
+  /* background-color: blue; */
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.top-button-search{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1rem;
+  gap: 4px;
+  border: none;
+  outline: none;
+  padding: 7px 14px;
+  border-radius: 7px;
+  font-family: 'Jost', Sans-Serif;
+  font-weight: 400;
+  color: rgba(0,0,0,0.6);
+}
+.most{
+  margin-top: 18px;
+}
+.product-in-search-container{
+  width: 100%;
+  margin-top: 18px;
+  overflow-x: scroll;
+  padding-bottom: 100px;
+}
+.product-in-search-wrapper{
+  width: 480%;
+  display: flex;
+  gap: 10px;
+}
+

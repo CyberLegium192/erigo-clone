@@ -1,0 +1,96 @@
+.login-side, .login-side2{
+  position: fixed;
+  background-color: white;
+  width: 70%;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: 1000;
+  padding: 0.7rem 1.8rem;
+  transition: all 0.4s;
+  transform: translateX(120%);
+}
+.login-side2{
+  width: 100%;
+  background-color: rgba(0,0,0,.6);
+  display: none;
+}
+.login-side.active-login-slide,
+.login-side2.active-login-slide{
+  transform: translateX(0%);
+  display: block;
+}
+
+.heading-text{
+  font-family: 'Jost',Sans-Serif;
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-bottom: 12px;
+  margin-top: 1rem;
+}
+.login-form{
+  font-family: 'Jost',Sans-Serif;
+  margin-top: 2rem;
+}
+.login-box{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+.login-box label{
+  font-size: 1.08rem;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.login-box input{
+  outline: none;
+  font-family: 'Jost',Sans-Serif;
+  /* height: 43px; */
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 2px solid rgba(0,0,0,.6);
+  padding: .6rem .4rem;
+}
+
+.submit-login{
+  width: 100%;
+  padding: .5rem 0px;
+  outline: none;
+  font-size: 1rem;
+  font-family: "Jost", Sans-Serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 4px;
+  border: 2px solid rgba(0,0,0,.5);
+  color: white;
+  background-color: rgba(95,143,181,255);
+  cursor: pointer;
+}
+.forgetPass{
+  display: inline-block;
+  font-size: .9rem;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  margin: 1.5rem 0px;
+  color: black;
+  font-family: 'Jost', Sans-Serif;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.signupButton{
+  width: 100%;
+  padding: .5rem 0px;
+  outline: none;
+  font-size: .9rem;
+  font-family: "Jost", Sans-Serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 4px;
+  border: 2px solid rgba(0,0,0,1);
+  color: black;
+  background-color: transparent;
+  cursor: pointer;
+}

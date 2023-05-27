@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+:root{
+  --primary-col: white;
+}
+.navbar{
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.navbar h2{
+  font-family: 'Jost', Sans-Serif;
+}
+.menuButton{
+  width: 50px;
+  height: 100%;
+  font-size: 1.5rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.otherMenu{
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.otherMenu .otherbutton{
+  width: 30%;
+  height: 100%;
+  font-size: 1.7rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.header-list{
+  display: flex;
+  justify-content: end;
+}
+/* NAVLINK STYLE */
+.navbarLink{
+  width: 67%;
+  position: fixed;
+  background-color: white;
+  transition: all 0.3s;
+  height: 100vh;
+  transform: translateX(-100%);
+  z-index: 20000;
+  top: 0;
+}
+.navbarLink2{
+  position: fixed;
+  background-color: rgba(0,0,0,.6);
+  width: 100%;
+  height: 100vh;
+  display: none;
+  z-index: 20000;
+  top: 0;
+}
+.navbarLink.active-nav,
+.navbarLink2.active-nav{
+  transform: translateX(0%);
+  display: block;
+}
+.navbarLink ul{
+  list-style: none;
+  padding: 1rem 1.1rem;
+}
+.navbarLink ul li{
+  padding: .6rem .4rem;
+}
+.navbarLink ul li a{
+  text-decoration: none;
+  color: rgba(0,0,0,1);
+  text-transform: capitalize;
+  position: relative;
+  display: flex;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  padding-bottom: 6px;
+  font-weight: 500;
+  align-items: center;
+}
+.icons-right-arrow{
+  position: absolute;
+  font-size: 1.7rem;
+  right: 0;
+}
+.navbarLink ul li a:hover{
+  color: rgba(0,0,0,.6);
+}
+.link{
+  font-family: 'Jost', Sans-Serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.otherlink{
+  font-size: .8rem;
+  font-weight: 500;
+  font-family: 'Jost', Sans-Serif;
+}
+.image-hero{
+  width: 100%;
+}
+.image-hero img{
+  width: 100%;
+}

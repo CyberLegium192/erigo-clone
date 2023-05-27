@@ -1,0 +1,65 @@
+.best_seller_box{
+  width: 98%;
+  padding: 7px;
+  margin: 0px auto;
+}
+.best_seller_box img{
+  width: 100%;
+}
+.boxBest{
+  line-height: 0;
+  display: inline-block;
+}
+
+
+.container-best-seller{
+  padding: 7px;
+  margin-top: 1rem;
+  overflow-x: scroll;
+}
+.wrapper-best-seller{
+  overflow-x: scroll;
+  justify-content: space-around;
+  display: flex;
+  width: 170%;
+}
+.box-best-seller{
+  width: 100%;
+  margin-right: 9px;
+  padding-bottom: 1rem;
+}
+.box-best-seller img{
+  pointer-events: none;
+  user-select: none;
+  width: 100%;
+}
+.content{
+  font-family: "Jost", Sans-Serif;
+  margin-top: 1.1rem;
+  text-align: center;
+  padding: 6px 26px;
+}
+.content p{
+  font-size: .9rem;
+  padding: 1rem 0px;
+  margin-bottom: .8rem;
+}
+.content button{
+  background-color: #5f8fb5;
+  border: 1.8px solid transparent;
+  outline: none;
+  font-family: 'Jost', Sans-Serif;
+  font-weight: 600;
+  font-size: .9rem;
+  height: 2.3rem;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 40%;
+  transition: all .3s;
+}
+.content button:hover{
+  background-color: white;
+  border-color: black;
+  color: black;
+}

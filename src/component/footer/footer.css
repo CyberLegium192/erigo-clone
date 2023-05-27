@@ -1,0 +1,142 @@
+/* #f8f8f8 */
+.container-footer{
+  margin-top: 2rem;
+  padding: 2.6rem 12px;
+  background-color: #f8f8f8;
+}
+.container-footer ul{
+  list-style: none;
+}
+.container-footer ul li{
+  margin-bottom: 13px;
+}
+
+
+.dropdownLink{
+/*   background-color: blue; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Jost', Sans-Serif;
+  font-size: 1rem;
+  color: black;
+  font-weight: 700;
+  letter-spacing: .06rem;
+  text-transform: uppercase;
+  border-bottom: 1.8px solid black;
+  padding-bottom: 8px;
+}
+.down-arrow{
+  margin-right: 3px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* dropdonw menu list */
+.dropdown-menu{
+  overflow-y: hidden;
+  transition: all 0.3s ease;
+  height: 0;
+}
+.customer1.active-dropdown-custom{
+  height: 36px!important;
+}
+.dropdown-menu.active-dropdown{
+  height: 120px;
+}
+
+.dropdown-menu a{
+  font-family: "Jost", Sans-Serif;
+  font-size: .9rem;
+  margin-top: 10px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+
+.container-footer h3{
+  font-family: 'Jost', Sans-Serif;
+  margin-top: 2.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+}
+.sosial-contianer{
+  display: flex;
+  margin-top: 1rem;
+}
+.sosial-box{
+  margin-right: 10px;
+  background-color: #282828;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  transition: all .3s;
+}
+.sosial{
+  font-size: 1.1rem;
+}
+.fb:hover{
+  background-color: #3b5998;
+}
+.ig:hover{
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.yt:hover{
+  background-color: #FF0000;
+}
+.tk:hover{
+  background-color: #00f2ea;
+}
+
+.signFormHeading{
+  font-size: 1rem;
+  font-family: "Jost", Sans-Serif;
+  letter-spacing: .09rem;
+  margin-top: 1rem;
+}
+.form-sign{
+  margin-top: 8px;
+  height: 2.5rem;
+  display: flex;
+  width: 85%;
+}
+.form-sign input{
+  background-color: transparent;
+  outline: none;
+  border: 1px solid black;
+  width: 65%;
+  border-radius: 3px;
+  padding: 1px .6rem;
+  margin-right: 7px;
+  font-family: "Jost";
+  font-size: 1rem;
+}
+.form-sign button{
+  width: 30%;
+  outline: none;
+  border: 1.5px solid black;
+  background-color: #282828;
+  color: white;
+  border-radius: 3px;
+  font-weight: bolder;
+  letter-spacing: .90px;
+  cursor: pointer;
+  transition: all .3s;
+}
+.form-sign button:hover{
+  background-color: #fff;
+  color: #282828;
+}

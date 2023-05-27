@@ -1,0 +1,86 @@
+.sideList{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  height: 100vh;
+  z-index: 333333;
+  width: 100%;
+  transform: translateX(-120%);
+  transition: all 0.5s;
+}
+.bodySideList{
+  padding: 4px 10px;
+}
+.sideList.active_side{
+  transform: translateX(0);
+}
+.closeside{
+  text-align: center;
+  line-height: 45px;
+  height: 45px;
+  margin-left: -1.5rem;
+  background-color: rgba(241,241,241,.5);
+  border: none;
+}
+.closeside a{
+  border: none!important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link{
+  position: relative;
+  width: 100%;
+}
+.icons{
+  position: absolute;
+  font-size: 2rem;
+  left: 27px;
+}
+
+.sideList ul{
+  padding: 1rem .3rem!important;
+  font-family: 'Jost', Sans-Serif
+}
+.sideList ul a{
+  margin-bottom: 5px;
+  position: relative;
+  border-bottom: 1px solid rgba(0,0,0,.1)!important;
+  display: flex;
+  align-items: center;
+  font-size: .9rem;
+  font-weight: 500;
+}
+.icons-arrow-right{
+  position: absolute;
+  font-size: 1.5rem;
+  right: 0;
+}
+
+
+.SideListLast{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 105%;
+  background-color: white;
+  height: 100vh;
+  z-index: 9999999;
+  transform: translateX(-120%);
+  transition: all 0.4s;
+}
+
+.SideListLast.active_side_last{
+  transform: translateX(0);
+}
+.last_menu_nav{
+  margin-top: 10px;
+  font-size: .9rem;
+  font-family: 'Jost', Sans-Serif;
+  font-weight: 500;
+}
+.toProductMenu{
+  margin-top: 20px;
+}
